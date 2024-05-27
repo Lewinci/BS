@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/lewinci/Desktop/BS_Prakt/Aufgabe 2/fifo'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _fifoCreate, symObjAddr: 0x0, symBinAddr: 0x100003B0C, symSize: 0x78 }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: _fifoCreate, symObjAddr: 0x0, symBinAddr: 0x100003B0C, symSize: 0x78 }
+  - { offsetInCU: 0x8B, offset: 0x8B, size: 0x8, addend: 0x0, symName: _fifoDestroy, symObjAddr: 0x78, symBinAddr: 0x100003B84, symSize: 0x4C }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _fifoAdd, symObjAddr: 0xC4, symBinAddr: 0x100003BD0, symSize: 0xDC }
+  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: _fifoRemove, symObjAddr: 0x1A0, symBinAddr: 0x100003CAC, symSize: 0x9C }
+  - { offsetInCU: 0x105, offset: 0x105, size: 0x8, addend: 0x0, symName: _fifoPeek, symObjAddr: 0x23C, symBinAddr: 0x100003D48, symSize: 0x11C }
+  - { offsetInCU: 0x145, offset: 0x145, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x358, symBinAddr: 0x100003E64, symSize: 0x90 }
+...
